@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="tr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <!-- css dosyanızı ekleyiniz-->
-    <link rel="stylesheet" href="index.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Caveat|Lato"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./Food El Blog_files/index.css">
+    <link href="./Food El Blog_files/css" rel="stylesheet">
     <title>Food El Blog</title>
   </head>
   <body>
@@ -24,12 +21,7 @@
     </div>
     <div>
       <!-- Image /images/banner.png -->
-      <img
-        src="images/banner.png"
-        alt="Fotograf açılamadı!"
-        width="900"
-        height="200"
-      />
+      <img src="./Food El Blog_files/banner.png" alt="Fotograf açılamadı!" width="900" height="200">
     </div>
     <div>
       <!-- Pazarlama başlığı -->
@@ -45,12 +37,7 @@
     </div>
     <div>
       <!-- Image /images/yemek_1.jpg -->
-      <img
-        src="images/yemek_1.jpg"
-        alt="Fotograf açılamadı!"
-        width="400"
-        height="300"
-      />
+      <img src="./Food El Blog_files/yemek_1.jpg" alt="Fotograf açılamadı!" width="400" height="300">
       <h2>Yemekler</h2>
       <p>
         Bir fırında mantar soslu antrikot Türk mutfağının en özel ve en
@@ -64,12 +51,7 @@
 
       <!-- Image /images/aperatif.jpeg -->
 
-      <img
-        src="images/aperatif.jpeg"
-        alt="Fotograf açılamadı!"
-        width="300"
-        height="400"
-      />
+      <img src="./Food El Blog_files/aperatif.jpeg" alt="Fotograf açılamadı!" width="300" height="400">
 
       <h2>Aperatif</h2>
       <p>
@@ -87,12 +69,7 @@
 
       <!-- Image /images/tatli_1.jpg -->
 
-      <img
-        src="images/tatli_1.jpg"
-        alt="Fotograf açılamadı!"
-        width="300"
-        height="300"
-      />
+      <img src="./Food El Blog_files/tatli_1.jpg" alt="Fotograf açılamadı!" width="300" height="300">
 
       <h2>Tatlılar</h2>
       <p>
@@ -114,5 +91,44 @@
 
       <address>@Copyright Food El Blog 2022</address>
     </div>
-  </body>
-</html>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<div id="UMS_TOOLTIP" style="position: absolute; cursor: pointer; z-index: 2147483647; background: transparent; top: -100000px; left: -100000px;"></div><div id="trend_notification_app" class="trend_notification_app_outer"><div id="trend_notification"><div id="trend_notification_con" class="clearfix"></div></div></div></body><umsdataelement id="UMSSendDataEventElement"></umsdataelement><div id="tmtoolbar_manual_rating_injected" style="display: none;">init</div></html>
